@@ -1,0 +1,5601 @@
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\seoswd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:03:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470115982
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\seosagent.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:06:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470116162
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sesudo.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:09:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470116344
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:12:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470116529
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:15:14
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470116714
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:18:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470116889
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:21:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470117063
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\seosd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:24:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470117255
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:27:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470117422
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:30:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470117609
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\svchost.exe
+Date:04 Aug 2016
+Time:16:06:28
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470306988
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:33:16
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470117796
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:16:11:34
+Audit flags:0
+nStatus:77
+Time Stamp:1470307294
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:36:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470117964
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:16:11:35
+Details:Resource ACL check
+User Logon Session ID:1b66e267-eae2-40b5-99db-2c858eeb7626
+Audit flags:0
+nStatus:80
+Time Stamp:1470307295
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:39:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470118143
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:42:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470118322
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:45:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470118508
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:48:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470118683
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:51:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470118868
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:54:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470119043
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:11:57:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470119228
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:35
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307295
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:00:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470119410
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:16:11:35
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470307295
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:03:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470119584
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:16:11:39
+Audit flags:0
+nStatus:77
+Time Stamp:1470307299
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:06:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470119764
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:16:11:40
+Details:Resource ACL check
+User Logon Session ID:1b66e267-eae2-40b5-99db-2c858eeb7626
+Audit flags:0
+nStatus:80
+Time Stamp:1470307300
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:09:06
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470119946
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:12:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470120131
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:15:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470120308
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:18:19
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470120499
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:21:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470120668
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:24:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470120841
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:27:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470121030
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:16:11:40
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470307300
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:30:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470121208
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:16:11:40
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470307300
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:33:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470121390
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:KAMVI03-I173137\Administrator
+Engine service:seosd
+Date:04 Aug 2016
+Time:17:02:12
+Details:User is ADMIN or SPECIAL
+User Logon Session ID:d91f57d5-5ee0-4f20-84e4-3e3e153cfd0a
+Audit flags:0
+nStatus:77
+Time Stamp:1470310332
+nReason:0
+nStage:452
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:36:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470121571
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\seosd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:13
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310333
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:39:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470121750
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\seosd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:13
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310333
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:42:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470121923
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\seosd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:13
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:887cd770-f262-4063-a7f0-9f6ae8ec9d9c
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310333
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:45:07
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470122107
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:seosd
+Date:04 Aug 2016
+Time:17:02:57
+Audit flags:0
+nStatus:77
+Time Stamp:1470310377
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:48:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470122282
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:AgentManager
+Date:04 Aug 2016
+Time:17:02:57
+Audit flags:0
+nStatus:77
+Time Stamp:1470310377
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:51:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470122468
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:54:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470122643
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:12:57:06
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470122826
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:00:07
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470123007
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:03:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470123191
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:06:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470123369
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:09:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470123548
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:12:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470123730
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:15:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470123904
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:18:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470124089
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\sepmdd.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:58
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310378
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:21:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470124263
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:17:02:59
+Audit flags:0
+nStatus:77
+Time Stamp:1470310379
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:24:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470124450
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:G:\Program Files\CA\AccessControlServer\APMS\AccessControl\bin\AgentManager.exe
+Date:04 Aug 2016
+Time:17:02:59
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310379
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:27:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470124624
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:02:59
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310379
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:30:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470124811
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\conhost.exe
+Date:04 Aug 2016
+Time:17:02:59
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310379
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:33:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470124989
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:17:02:59
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470310379
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:36:07
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470125167
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:02:59
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310379
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:39:06
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470125346
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:02:59
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310379
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:42:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470125524
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:03:00
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310380
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:45:05
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470125705
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:03:00
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310380
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:48:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470125882
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:03:00
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310380
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:51:06
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470126066
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:03:00
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310380
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:54:06
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470126246
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:03:00
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310380
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:13:57:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470126423
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:03:00
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310380
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:00:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470126611
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:17:03:00
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470310380
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:03:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470126783
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:G:\Program Files\CA\AccessControlServer\APMS\AccessControl\bin\AgentManager.exe
+Date:04 Aug 2016
+Time:17:03:00
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310380
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:06:00
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470126960
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:03:00
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310380
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:09:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470127142
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\conhost.exe
+Date:04 Aug 2016
+Time:17:03:00
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310380
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:12:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470127322
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:03:00
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310380
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:15:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470127501
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:G:\Program Files\CA\AccessControlServer\APMS\AccessControl\bin\AgentManager.exe
+Date:04 Aug 2016
+Time:17:03:01
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310381
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:18:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470127682
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:03:01
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310381
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:21:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470127863
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\conhost.exe
+Date:04 Aug 2016
+Time:17:03:01
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310381
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:24:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470128048
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:03:01
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310381
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:27:13
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470128233
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:2
+Target host:kamvi03-I173137
+Event type:Resource access
+Status:Access mask removal notification
+Class:PROCESS
+Resource:\device\harddiskvolume4\program files\ca\accesscontrolserver\apms\accesscontrol\bin\agentmanager.exe
+Access:Kill
+User name:NT AUTHORITY\SYSTEM
+Terminal:
+Program:C:\Windows\system32\csrss.exe
+Date:04 Aug 2016
+Time:17:03:02
+Details:Attempting to terminate CA ControlMinder
+User Logon Session ID:a47f797b-89b6-4d8b-8674-e5eb3aacc2f8
+Audit flags:0
+Effective user name:
+nStatus:78
+Time Stamp:1470310382
+nReason:10
+nStage:600
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:30:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470128402
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add resource
+Status:Successful
+Administrator:+policyfetcher
+Class:RULESET
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:newres RULESET ("samp policy1#01") comment('samp policy1 descr')
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:33:08
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470128588
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:RULESET
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres RULESET ("samp policy1#01") docmd+('nu Sooraj')
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:36:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470128763
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:RULESET
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres RULESET ("samp policy1#01") finalize
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:39:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470128942
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add resource
+Status:Successful
+Administrator:+policyfetcher
+Class:POLICY
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:newres POLICY ("samp policy1#01") comment('samp policy1 descr')
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:42:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470129122
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:POLICY
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres POLICY ("samp policy1#01") ruleset+("samp policy1#01")
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:45:05
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470129305
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:POLICY
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres POLICY ("samp policy1#01") finalize
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:48:16
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470129496
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:GPOLICY
+Object:samp policy1 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres GPOLICY ("samp policy1")
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:51:23
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470129683
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:GPOLICY
+Object:samp policy1 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres GPOLICY ("samp policy1") mem+("samp policy1#01") noexit
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:54:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470129843
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add resource
+Status:Successful
+Administrator:+policyfetcher
+Class:DEPLOYMENT
+Object:1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:newres DEPLOYMENT ("1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389") operation(deploy) policy_version("samp policy1#01") gpolicy("samp policy1") dms_name("DMS__@localhost")
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:14:57:00
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470130020
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:GDEPLOYMENT
+Object:1470310032#767be616-c4ed-45ac-b4f7-1dccda3ca389 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:04
+Details:Command allowed for ADMIN user.
+Command:editres GDEPLOYMENT ("1470310032#767be616-c4ed-45ac-b4f7-1dccda3ca389") mem+("1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389") trigger(DirectDeploy)
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310444
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:00:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470130201
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add user
+Status:Successful
+Administrator:+policyfetcher
+Class:USER
+Object:Sooraj 
+Terminal:(POLICY: samp policy1#01)
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:nu Sooraj
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:03:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470130382
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ("__local__") policy(name("samp policy1#01") updated_by("ac_entm_pers") status(Deployed))
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:06:13
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470130573
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Administrative command
+Status:Successful
+Administrator:+policyfetcher
+Class:POLICY
+Object:samp policy1#01 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:deploy POLICY ("samp policy1#01") deployment("1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389")
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:09:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470130751
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+policyfetcher
+Class:DEPLOYMENT
+Object:1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres DEPLOYMENT ("1470310034#767be616-c4ed-45ac-b4f7-1dccda3ca389") result- status("SUCCESS")
+User Logon Session ID:
+Audit flags:0
+On behalf of:ac_entm_pers
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:12:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470130930
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:17:04:05
+Audit flags:0
+nStatus:77
+Time Stamp:1470310445
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:15:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470131102
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:17:04:05
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470310445
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:18:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470131282
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:21:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470131461
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:24:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470131655
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:27:14
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470131834
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:30:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470132002
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:33:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470132182
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:36:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470132361
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:39:05
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470132545
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:17:04:05
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('samp policy1#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470310445
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:42:14
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470132734
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:17:04:05
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470310445
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:45:19
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470132919
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:KAMVI03-I173137\Administrator
+Terminal:10.131.65.160
+Program:selang
+Date:04 Aug 2016
+Time:17:04:19
+Details:OWNER check of resource
+User Logon Session ID:db4af41e-6094-4836-9d51-c85836b23115
+Audit flags:0
+nStatus:80
+Time Stamp:1470310459
+nReason:10
+nStage:54
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:48:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470133081
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:18:04:07
+Audit flags:0
+nStatus:77
+Time Stamp:1470314047
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:51:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470133262
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:18:04:08
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470314048
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:54:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470133441
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:15:57:05
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470133625
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:00:16
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470133816
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:03:23
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470134003
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:06:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470134161
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:09:00
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470134340
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:5
+Target host:DMS__@kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:_dms
+Class:HNODE
+Object:kamvi03-I173137 
+Terminal:DH__WRITER@kamvi03-I173137
+Date:02 Aug 2016
+Time:16:09:30
+Details:Command allowed for CLASS-ADMIN user.
+Command:editres HNODE ("kamvi03-I173137") node_type+("ACW") latest_keep_alive("08/02/16@16:09") node_version+("ACW:12.91.0302") node_ip+("10.131.65.160") node_ip+("::1") node_info("Microsoft Windows Server 2012 Standard Edition, 64-bit") node_type-("ACUNAB") i...
+User Logon Session ID:
+Audit flags:0
+On behalf of:_dms
+Deployment task:
+nStatus:83
+Time Stamp:1470134370
+nReason:0
+nStage:320
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:5
+Target host:DMS__@kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:_dms
+Class:HNODE
+Object:kamvi03-I173137 
+Terminal:DH__WRITER@kamvi03-I173137
+Date:02 Aug 2016
+Time:16:09:30
+Details:Command allowed for CLASS-ADMIN user.
+Command:editres HNODE ("kamvi03-I173137") events-
+User Logon Session ID:
+Audit flags:0
+On behalf of:_dms
+Deployment task:
+nStatus:83
+Time Stamp:1470134370
+nReason:0
+nStage:320
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:18:04:08
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('samp policy1#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470314048
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:12:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470134521
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:18:04:08
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470314048
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:15:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470134701
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:19:04:06
+Audit flags:0
+nStatus:77
+Time Stamp:1470317646
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:18:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470134881
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:19:04:06
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470317646
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:21:04
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470135064
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:24:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470135243
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:27:10
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470135430
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:30:18
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470135618
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:33:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470135795
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:36:20
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470135980
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:39:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470136143
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:42:05
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470136325
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:19:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('samp policy1#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470317646
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:45:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470136502
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:19:04:06
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470317646
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:48:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470136682
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:20:04:06
+Audit flags:0
+nStatus:77
+Time Stamp:1470321246
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:51:11
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470136871
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:20:04:06
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470321246
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:54:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470137043
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:16:57:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470137223
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:00:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470137401
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:03:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470137582
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:06:13
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470137773
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:09:05
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470137945
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:12:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470138122
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:06
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321246
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:15:16
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470138316
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:20:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('samp policy1#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470321247
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:18:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470138495
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:20:04:07
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470321247
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:21:00
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470138660
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:21:04:06
+Audit flags:0
+nStatus:77
+Time Stamp:1470324846
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:24:14
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470138854
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:21:04:07
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470324847
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:27:17
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470139037
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:30:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470139203
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:33:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470139382
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:36:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470139561
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:39:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470139741
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:42:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470139923
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:45:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470140103
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:48:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470140281
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:21:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('samp policy1#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470324847
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:51:14
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470140474
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:6
+Target host:kamvi03-I173137
+Event type:Engine service shutdown
+User name:
+Engine service:devcalc
+Date:04 Aug 2016
+Time:21:04:07
+Details:Stage code 0
+User Logon Session ID:
+Audit flags:0
+nStatus:77
+Time Stamp:1470324847
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:54:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470140655
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:7
+Target host:kamvi03-I173137
+Event type:Engine service start
+Engine service:devcalc
+Date:04 Aug 2016
+Time:22:04:06
+Audit flags:0
+nStatus:77
+Time Stamp:1470328446
+nReason:0
+nStage:
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:17:57:23
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470140843
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:+devcalc
+Terminal:10.131.65.160
+Program:devcalc
+Date:04 Aug 2016
+Time:22:04:07
+Details:Resource ACL check
+User Logon Session ID:0b474a0c-8377-489e-8223-64549f294f9c
+Audit flags:0
+nStatus:80
+Time Stamp:1470328447
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:00:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470141002
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('secondpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:03:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470141195
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('a#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:06:00
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470141360
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sa#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:09:01
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470141541
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('policy22#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:12:09
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470141729
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('sampPolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:15:15
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470141915
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('firstpolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:18:03
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470142083
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('madhupolicy#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:21:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470142262
+nReason:10
+nStage:55
+EVENT_END
+EVENT_HEADER:5
+Target host:kamvi03-I173137
+Event type:Security database administration
+Command type:Add/Modify resource
+Status:Successful
+Administrator:+devcalc
+Class:HNODE
+Object:__local__ 
+Terminal:kamvi03-I173137
+Date:04 Aug 2016
+Time:22:04:07
+Details:Command allowed for ADMIN user.
+Command:editres HNODE ('__local__') policy(name('samp policy1#01') deviation-)
+User Logon Session ID:
+Audit flags:0
+On behalf of:
+Deployment task:
+nStatus:83
+Time Stamp:1470328447
+nReason:0
+nStage:305
+EVENT_END
+EVENT_HEADER:1
+Target host:DMS__@kamvi03-I173137
+Event type:Login event
+Status:Permitted
+User name:ac_entm_pers
+Terminal:10.131.65.160
+Program:acws
+Date:02 Aug 2016
+Time:18:24:02
+Details:Resource ACL check
+User Logon Session ID:affc5fe9-8fd3-4558-b119-d629903cbddb
+Audit flags:0
+nStatus:80
+Time Stamp:1470142442
+nReason:10
+nStage:55
+EVENT_END
+ 
