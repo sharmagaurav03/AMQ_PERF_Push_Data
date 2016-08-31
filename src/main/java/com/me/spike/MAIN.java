@@ -33,8 +33,7 @@ public class MAIN {
 		// Create the destination (Topic or Queue)
 		Destination destination = session.createQueue("TEST.SPIKE");
 
-		// Create a MessageProducer from the Session to the Topic or
-		// Queue
+		// Create a MessageProducer from the Session to the Topic or Queue
 		MessageProducer producer = session.createProducer(destination);
 		TextMessage message = session.createTextMessage(getMessage());
 		producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
