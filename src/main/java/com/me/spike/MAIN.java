@@ -15,6 +15,10 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
+/**
+ * @author shaga12
+ *
+ */
 public class MAIN {
 
 	public static void main(String[] args) throws Exception {
