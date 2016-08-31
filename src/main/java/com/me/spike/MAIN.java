@@ -3,7 +3,6 @@ package com.me.spike;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.concurrent.CountDownLatch;
 
 import javax.jms.Connection;
 import javax.jms.DeliveryMode;
@@ -15,99 +14,149 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-/**
- * @author shaga12
- *
- */
+import com.me.spike.MessageDispatcher.MessageDispatcherBuilder;
+
 public class MAIN {
 
 	public static void main(String[] args) throws Exception {
-		//
-		// Create a ConnectionFactory
-		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("nio://SHAGA12:61616");
 
-		// ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("nio://SHAGA12-I180614:61616");
-
-		// Create a Connection
-		Connection connection = connectionFactory.createConnection();
-		connection.start();
-
-		// Create a Session
-		Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-
-		// Create the destination (Topic or Queue)
-		Destination destination = session.createQueue("TEST.SPIKE");
-
-		// Create a MessageProducer from the Session to the Topic or Queue
-		MessageProducer producer = session.createProducer(destination);
-		TextMessage message = session.createTextMessage(getMessage());
-		producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
-
-		producer.send(message);
-
-		long time = System.currentTimeMillis();
-
-//		useMultipleThreadProduer(producer, message);
-		sendMessages(producer, message);
-
-		System.out.println(System.currentTimeMillis() - time);
-
-		producer.close();
-		session.close();
-		connection.close();
+		MessageDispatcher dispatcher = new MessageDispatcherBuilder().forURI("nio://SHAGA12:61616").prepareConnection()
+				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
+				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").getDispatcher();
+		
+		MessageDispatcher dispatcher1 = new MessageDispatcherBuilder().forURI("nio://SHAGA12:61616").prepareConnection()
+				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
+				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").getDispatcher();
+		
+		Thread t1= new Thread(dispatcher);
+		Thread t2 = new Thread(dispatcher1);
+		
+		long temp=System.currentTimeMillis();
+		t1.start();t2.start();
+		t1.join();t2.join();
+		System.out.println(System.currentTimeMillis()-temp);
 
 	}
 
-	private static void sendMessages(MessageProducer producer, TextMessage message) throws JMSException {
-		for (int i = 0; i < 1200; i++) {
-			producer.send(message);
-		}
+}
+
+class MessageDispatcher implements Runnable {
+
+	private MessageProducer producer;
+	private TextMessage message;
+	private Connection connection;
+
+	private MessageDispatcher(MessageProducer producer, TextMessage message, Connection connection) {
+		this.producer = producer;
+		this.message = message;
+		this.connection = connection;
 	}
 
-	@SuppressWarnings("unused")
-	private static void useMultipleThreadProduer(MessageProducer producer, TextMessage message)
-			throws InterruptedException {
-		CountDownLatch countDownLatch = new CountDownLatch(2);
-		new Thread(new Producer(producer, message, countDownLatch)).start();
-		new Thread(new Producer(producer, message, countDownLatch)).start();
-		countDownLatch.await();
-
-	}
-
-	private static String getMessage() {
-		String content = null;
+	public void run() {
 		try {
-			Scanner scanner = new Scanner(new File("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt"));
-			content = scanner.useDelimiter("\\Z").next();
-			scanner.close();
-		} catch (FileNotFoundException e) {
-			throw new RuntimeException(e);
-		}
-		return content;
-	}
+			long time = System.currentTimeMillis();
 
-	public static class Producer implements Runnable {
-		private MessageProducer producer = null;
-		private TextMessage message = null;
-		private CountDownLatch latch = null;
-
-		Producer(MessageProducer producer, TextMessage message, CountDownLatch countDownLatch) {
-			this.producer = producer;
-			this.message = message;
-			this.latch = countDownLatch;
-		}
-
-		public void run() {
-			try {
-				for (int i = 0; i < 600; i++) {
-					producer.send(message);
-				}
-				latch.countDown();
-			} catch (Exception e) {
-				System.out.println("Caught: " + e);
-				e.printStackTrace();
+			for (int i = 0; i < 600; i++) {
+				producer.send(message);
 			}
+
+			System.out.println(System.currentTimeMillis() - time);
+
+			this.connection.close();
+
+		} catch (Exception e) {
+			System.out.println("Caught: " + e);
+			e.printStackTrace();
 		}
 	}
+	
+	MessageProducer getProducer() {
+		return producer;
+	}
 
+	TextMessage getMessage() {
+		return message;
+	}
+
+	Connection getConnection() {
+		return connection;
+	}
+
+	public static class MessageDispatcherBuilder {
+		private ActiveMQConnectionFactory connectionFactory;
+		private Connection connection;
+		private Session session;
+		private Destination destination;
+		private MessageProducer producer;
+		private TextMessage message;
+
+		public MessageDispatcherBuilder forURI(String uri) {
+			this.connectionFactory = new ActiveMQConnectionFactory(uri);
+			return this;
+		}
+
+		public MessageDispatcherBuilder prepareConnection() {
+			try {
+				this.connection = connectionFactory.createConnection();
+				this.connection.start();
+			} catch (JMSException e) {
+				throw new RuntimeException(e);
+			}
+			return this;
+		}
+
+		public MessageDispatcherBuilder thenBeginSession() {
+			try {
+				this.session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+			} catch (JMSException e) {
+				throw new RuntimeException(e);
+			}
+			return this;
+		}
+
+		public MessageDispatcherBuilder toDestination(String destinationName) {
+			try {
+				this.destination = session.createQueue(destinationName);
+			} catch (JMSException e) {
+				throw new RuntimeException(e);
+			}
+			return this;
+		}
+
+		public MessageDispatcherBuilder andToProduce() {
+			try {
+				this.producer = session.createProducer(this.destination);
+				producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
+			} catch (JMSException e) {
+				throw new RuntimeException(e);
+			}
+			return this;
+		}
+
+		public MessageDispatcherBuilder theMessages(String filePath) {
+			try {
+				this.message = session.createTextMessage(getMessage(filePath));
+			} catch (JMSException e) {
+				throw new RuntimeException(e);
+			}
+			return this;
+		}
+
+		public MessageDispatcher getDispatcher() {
+			return new MessageDispatcher(producer, message, connection);
+		}
+
+		private static String getMessage(String fileName) {
+			String content = null;
+			try {
+				Scanner scanner = new Scanner(new File(fileName));
+				content = scanner.useDelimiter("\\Z").next();
+				scanner.close();
+			} catch (FileNotFoundException e) {
+				throw new RuntimeException(e);
+			}
+			return content;
+		}
+
+	}
 }
