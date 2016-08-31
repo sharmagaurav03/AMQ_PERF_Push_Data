@@ -22,19 +22,21 @@ public class MAIN {
 
 		MessageDispatcher dispatcher = new MessageDispatcherBuilder().forURI("nio://SHAGA12:61616").prepareConnection()
 				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
-				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").getDispatcher();
-		
+				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").numberOfTimes(600).getDispatcher();
+
 		MessageDispatcher dispatcher1 = new MessageDispatcherBuilder().forURI("nio://SHAGA12:61616").prepareConnection()
 				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
-				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").getDispatcher();
-		
-		Thread t1= new Thread(dispatcher);
+				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").numberOfTimes(600).getDispatcher();
+
+		Thread t1 = new Thread(dispatcher);
 		Thread t2 = new Thread(dispatcher1);
-		
-		long temp=System.currentTimeMillis();
-		t1.start();t2.start();
-		t1.join();t2.join();
-		System.out.println(System.currentTimeMillis()-temp);
+
+		long temp = System.currentTimeMillis();
+		t1.start();
+		t2.start();
+		t1.join();
+		t2.join();
+		System.out.println(System.currentTimeMillis() - temp);
 
 	}
 
@@ -45,18 +47,20 @@ class MessageDispatcher implements Runnable {
 	private MessageProducer producer;
 	private TextMessage message;
 	private Connection connection;
+	private int count;
 
-	private MessageDispatcher(MessageProducer producer, TextMessage message, Connection connection) {
+	private MessageDispatcher(MessageProducer producer, TextMessage message, Connection connection, int count) {
 		this.producer = producer;
 		this.message = message;
 		this.connection = connection;
+		this.count = count;
 	}
 
 	public void run() {
 		try {
 			long time = System.currentTimeMillis();
 
-			for (int i = 0; i < 600; i++) {
+			for (int i = 0; i < count; i++) {
 				producer.send(message);
 			}
 
@@ -65,11 +69,10 @@ class MessageDispatcher implements Runnable {
 			this.connection.close();
 
 		} catch (Exception e) {
-			System.out.println("Caught: " + e);
-			e.printStackTrace();
+			new RuntimeException(e);
 		}
 	}
-	
+
 	MessageProducer getProducer() {
 		return producer;
 	}
@@ -81,6 +84,10 @@ class MessageDispatcher implements Runnable {
 	Connection getConnection() {
 		return connection;
 	}
+	
+	int getCount() {
+		return count;
+	}
 
 	public static class MessageDispatcherBuilder {
 		private ActiveMQConnectionFactory connectionFactory;
@@ -89,6 +96,7 @@ class MessageDispatcher implements Runnable {
 		private Destination destination;
 		private MessageProducer producer;
 		private TextMessage message;
+		private int count;
 
 		public MessageDispatcherBuilder forURI(String uri) {
 			this.connectionFactory = new ActiveMQConnectionFactory(uri);
@@ -97,8 +105,8 @@ class MessageDispatcher implements Runnable {
 
 		public MessageDispatcherBuilder prepareConnection() {
 			try {
-				this.connection = connectionFactory.createConnection();
-				this.connection.start();
+				connection = connectionFactory.createConnection();
+				connection.start();
 			} catch (JMSException e) {
 				throw new RuntimeException(e);
 			}
@@ -142,20 +150,80 @@ class MessageDispatcher implements Runnable {
 			return this;
 		}
 
-		public MessageDispatcher getDispatcher() {
-			return new MessageDispatcher(producer, message, connection);
+		public MessageDispatcherBuilder numberOfTimes(int count) {
+			this.count = count;
+			return this;
 		}
 
-		private static String getMessage(String fileName) {
-			String content = null;
-			try {
-				Scanner scanner = new Scanner(new File(fileName));
-				content = scanner.useDelimiter("\\Z").next();
-				scanner.close();
-			} catch (FileNotFoundException e) {
-				throw new RuntimeException(e);
+		public MessageDispatcher getDispatcher() {
+			return new MessageDispatcher(producer, message, connection, count);
+		}
+
+		// Below methods are private protected to enable junit test cases.
+		
+		//TODO: extract below to implementation of interface Readable
+		
+		 String getMessage(String fileName) {
+				String content = null;
+				try {
+					Scanner scanner = new Scanner(new File(fileName));
+					content = scanner.useDelimiter("\\Z").next();
+					scanner.close();
+				} catch (FileNotFoundException e) {
+					throw new RuntimeException(e);
+				}
+				return content;
 			}
-			return content;
+		void setConnectionFactory(ActiveMQConnectionFactory connectionFactory) {
+			this.connectionFactory = connectionFactory;
+		}
+
+		ActiveMQConnectionFactory getConnectionFactory() {
+			return connectionFactory;
+		}
+
+		void setConnection(Connection connection) {
+			this.connection = connection;
+		}
+
+		Connection getConnection() {
+			return connection;
+		}
+
+		void setSession(Session session) {
+			this.session = session;
+		}
+
+		Session getSession() {
+			return session;
+		}
+
+		Destination getDestination() {
+			return destination;
+		}
+		
+		void setDestination(Destination destination) {
+			this.destination=destination;
+		}
+
+		MessageProducer getProducer() {
+			return producer;
+		}
+		
+		void setProducer(MessageProducer producer) {
+			this.producer=producer;
+		}
+
+		TextMessage getMessage() {
+			return message;
+		}
+		
+		void setMessage(TextMessage message) {
+			this.message=message;
+		}
+
+		int getCount() {
+			return count;
 		}
 
 	}
