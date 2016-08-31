@@ -22,6 +22,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 public class MAIN {
 
 	public static void main(String[] args) throws Exception {
+		//
 		// Create a ConnectionFactory
 		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("nio://SHAGA12:61616");
 
