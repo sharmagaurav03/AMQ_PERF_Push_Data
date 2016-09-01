@@ -3,6 +3,7 @@ package com.me.spike;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.concurrent.CountDownLatch;
 
 import javax.jms.Connection;
 import javax.jms.DeliveryMode;
@@ -20,22 +21,55 @@ public class MAIN {
 
 	public static void main(String[] args) throws Exception {
 
-		MessageDispatcher dispatcher = new MessageDispatcherBuilder().forURI("nio://SHAGA12-I180614:61616").prepareConnection()
-				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
-				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").numberOfTimes(600).getDispatcher();
+//		String uri = "nio://SHAGA12-I180614:61616";
+		String uri = "nio://SHAGA12:61616";
+		int count = 240;
+		String queueName = "TEST.SPIKE";
+		String messageFilePath = "C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt";
+		
+		MessageDispatcher dispatcher1 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+				.thenBeginSession().toDestination(queueName).andToProduce()
+				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
 
-		MessageDispatcher dispatcher1 = new MessageDispatcherBuilder().forURI("nio://SHAGA12:61616").prepareConnection()
-				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
-				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").numberOfTimes(600).getDispatcher();
+		MessageDispatcher dispatcher2 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+				.thenBeginSession().toDestination(queueName).andToProduce()
+				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+		MessageDispatcher dispatcher3 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+				.thenBeginSession().toDestination(queueName).andToProduce()
+				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
 
-		Thread t1 = new Thread(dispatcher);
-		Thread t2 = new Thread(dispatcher1);
+		MessageDispatcher dispatcher4 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+				.thenBeginSession().toDestination(queueName).andToProduce()
+				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+		
+		MessageDispatcher dispatcher5 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+				.thenBeginSession().toDestination(queueName).andToProduce()
+				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+		
+		
+		CountDownLatch startLatch=new CountDownLatch(1);
+		CountDownLatch endLatch = new CountDownLatch(5);
+		
+		dispatcher1.setStartLatch(startLatch);dispatcher2.setStartLatch(startLatch);
+		dispatcher3.setStartLatch(startLatch);dispatcher4.setStartLatch(startLatch);
+		dispatcher5.setStartLatch(startLatch);
+		
+		dispatcher1.setEndLatch(endLatch);dispatcher2.setEndLatch(endLatch);
+		dispatcher3.setEndLatch(endLatch);dispatcher4.setEndLatch(endLatch);
+		dispatcher5.setEndLatch(endLatch);
+		
+
+		Thread t1 = new Thread(dispatcher1);
+		Thread t2 = new Thread(dispatcher2);
+		Thread t3 = new Thread(dispatcher3);
+		Thread t4 = new Thread(dispatcher4);
+		Thread t5 = new Thread(dispatcher5);
 
 		long temp = System.currentTimeMillis();
-		t1.start();
-		t2.start();
-		t1.join();
-		t2.join();
+		t1.start();t2.start();t3.start();t4.start();t5.start();
+		startLatch.countDown();
+		endLatch.await();
+		
 		System.out.println(System.currentTimeMillis() - temp);
 
 	}
@@ -48,6 +82,24 @@ class MessageDispatcher implements Runnable {
 	private TextMessage message;
 	private Connection connection;
 	private int count;
+	private CountDownLatch startLatch;
+	private CountDownLatch endLatch;
+
+	CountDownLatch getStartLatch() {
+		return startLatch;
+	}
+
+	void setStartLatch(CountDownLatch startLatch) {
+		this.startLatch = startLatch;
+	}
+
+	CountDownLatch getEndLatch() {
+		return endLatch;
+	}
+
+	void setEndLatch(CountDownLatch endLatch) {
+		this.endLatch = endLatch;
+	}
 
 	private MessageDispatcher(MessageProducer producer, TextMessage message, Connection connection, int count) {
 		this.producer = producer;
@@ -58,18 +110,21 @@ class MessageDispatcher implements Runnable {
 
 	public void run() {
 		try {
+			startLatch.await();
 			long time = System.currentTimeMillis();
+			int i = 0;
 
-			for (int i = 0; i < count; i++) {
+			for ( ; i < count; i++) {
 				producer.send(message);
 			}
 
-			System.out.println(Thread.currentThread().getName() + " " + (System.currentTimeMillis() - time));
+			System.out.println(Thread.currentThread().getName() + " " + (System.currentTimeMillis() - time) + " messages send "+ (i-1));
 
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		} finally
 		{
+			endLatch.countDown();
 			try {
 				this.connection.close();
 			} catch (JMSException e) {
@@ -127,6 +182,8 @@ class MessageDispatcher implements Runnable {
 
 		public MessageDispatcherBuilder forURI(String uri) {
 			this.connectionFactory = new ActiveMQConnectionFactory(uri);
+			connectionFactory.setUseAsyncSend(true);
+			connectionFactory.setProducerWindowSize(Integer.MAX_VALUE);
 			return this;
 		}
 
