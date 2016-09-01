@@ -108,12 +108,31 @@ public class MessageDispatcherBuilderTest {
 		verify(producer, times(1)).setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 	}
 	
+	@Test
+	public void testGetDispatcher()
+	{
+		Connection connection = mock(Connection.class);
+		MessageProducer producer = mock(MessageProducer.class);
+		TextMessage message = mock(TextMessage.class);
+		int count = 0;
+		builder.setConnection(connection);
+		builder.setProducer(producer);
+		builder.setMessage(message);
+		builder.numberOfTimes(count);
+		MessageDispatcher messageDispatcher=builder.getDispatcher();
+		assertEquals(messageDispatcher.getConnection(), connection);
+		assertEquals(messageDispatcher.getProducer(), producer);
+		assertEquals(messageDispatcher.getMessage(), message);
+		assertEquals(messageDispatcher.getCount(), count);
+		
+		
+	}
+	
 	@SuppressWarnings("unchecked")
 	@Test(expectedExceptions = RuntimeException.class)
 	public void testAndToProduceWithException() throws JMSException
 	{
 		Destination destination = mock(Destination.class);
-		MessageProducer producer = mock(MessageProducer.class);
 		Session session = mock(Session.class);
 		when(session.createProducer(destination)).thenThrow(JMSException.class);
 		builder.setSession(session);
@@ -136,8 +155,9 @@ public class MessageDispatcherBuilderTest {
 		verify(session, times(1)).createTextMessage("");
 	}
 	
+	@SuppressWarnings("unchecked")
 	@Test(expectedExceptions = RuntimeException.class)
-	public void testTheMessagesWithError() throws JMSException
+	public void testTheMessagesWithException() throws JMSException
 	{
 		Session session = mock(Session.class);
 		builder = new MessageDispatcherBuilder(){
@@ -158,24 +178,4 @@ public class MessageDispatcherBuilderTest {
 		assertEquals(builder.getCount(), number);
 	}
 	
-	@Test
-	public void testGetDispatcher()
-	{
-		Connection connection = mock(Connection.class);
-		MessageProducer producer = mock(MessageProducer.class);
-		TextMessage message = mock(TextMessage.class);
-		int count = 0;
-		builder.setConnection(connection);
-		builder.setProducer(producer);
-		builder.setMessage(message);
-		builder.numberOfTimes(count);
-		MessageDispatcher messageDispatcher=builder.getDispatcher();
-		assertEquals(messageDispatcher.getConnection(), connection);
-		assertEquals(messageDispatcher.getProducer(), producer);
-		assertEquals(messageDispatcher.getMessage(), message);
-		assertEquals(messageDispatcher.getCount(), count);
-		
-		
-	}
-
 }

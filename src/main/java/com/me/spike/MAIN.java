@@ -20,7 +20,7 @@ public class MAIN {
 
 	public static void main(String[] args) throws Exception {
 
-		MessageDispatcher dispatcher = new MessageDispatcherBuilder().forURI("nio://SHAGA12:61616").prepareConnection()
+		MessageDispatcher dispatcher = new MessageDispatcherBuilder().forURI("nio://SHAGA12-I180614:61616").prepareConnection()
 				.thenBeginSession().toDestination("TEST.SPIKE").andToProduce()
 				.theMessages("C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt").numberOfTimes(600).getDispatcher();
 
@@ -64,17 +64,44 @@ class MessageDispatcher implements Runnable {
 				producer.send(message);
 			}
 
-			System.out.println(System.currentTimeMillis() - time);
-
-			this.connection.close();
+			System.out.println(Thread.currentThread().getName() + " " + (System.currentTimeMillis() - time));
 
 		} catch (Exception e) {
-			new RuntimeException(e);
+			throw new RuntimeException(e);
+		} finally
+		{
+			try {
+				this.connection.close();
+			} catch (JMSException e) {
+				throw new RuntimeException(e);
+			}
 		}
+	}
+	
+	//Below messages are package private and to be used only in Unit test cases.
+	
+	MessageDispatcher() {
+	}
+	
+	void setProducer(MessageProducer producer) {
+		this.producer=producer;
+	}
+	
+	void setConnection(Connection connection) {
+		this.connection=connection;
+	}
+
+	void setMessage(TextMessage message) {
+		this.message=message;
+		
 	}
 
 	MessageProducer getProducer() {
 		return producer;
+	}
+	
+	void setCount(int count) {
+		this.count=count;
 	}
 
 	TextMessage getMessage() {
@@ -227,4 +254,5 @@ class MessageDispatcher implements Runnable {
 		}
 
 	}
+
 }
