@@ -1,77 +1,93 @@
-package com.me.spike;
+package com.me.spike.producer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.Scanner;
 import java.util.concurrent.CountDownLatch;
 
+import javax.jms.BytesMessage;
 import javax.jms.Connection;
 import javax.jms.DeliveryMode;
 import javax.jms.Destination;
 import javax.jms.JMSException;
+import javax.jms.Message;
 import javax.jms.MessageProducer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-import com.me.spike.MessageDispatcher.MessageDispatcherBuilder;
+import com.me.spike.producer.MessageDispatcher.MessageDispatcherBuilder;
 
 public class MAIN {
 
 	public static void main(String[] args) throws Exception {
 
-//		String uri = "nio://SHAGA12-I180614:61616";
-		String uri = "nio://SHAGA12:61616";
-		int count = 240;
-		String queueName = "TEST.SPIKE";
+//		String uri = "nio://shaga12-I180958:61616?socketBufferSize=131072&ioBufferSize=16384&wireFormat.cacheSize=4096";
+		long temp =0;
+
+		
+		String uri = "nio://shaga12-i181930:61616?socketBufferSize=131072&ioBufferSize=16384&wireFormat.cacheSize=4096";
+		int count = 100;
+		String queueName = "firstQueue";
 		String messageFilePath = "C:\\SustenanceDefects\\UARM\\UARM_Temp\\AMQ_ES_Perf\\events.txt";
+//		while(true)
+//\\		{
 		
 		MessageDispatcher dispatcher1 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
 				.thenBeginSession().toDestination(queueName).andToProduce()
 				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
 
-		MessageDispatcher dispatcher2 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
-				.thenBeginSession().toDestination(queueName).andToProduce()
-				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
-		MessageDispatcher dispatcher3 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
-				.thenBeginSession().toDestination(queueName).andToProduce()
-				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+//		MessageDispatcher dispatcher2 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+//				.thenBeginSession().toDestination(queueName).andToProduce()
+//				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+//		
+//		MessageDispatcher dispatcher3 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+//				.thenBeginSession().toDestination(queueName).andToProduce()
+//				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+//
+//		MessageDispatcher dispatcher4 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+//				.thenBeginSession().toDestination(queueName).andToProduce()
+//				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+//		
+//		MessageDispatcher dispatcher5 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
+//				.thenBeginSession().toDestination(queueName).andToProduce()
+//				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
+		
 
-		MessageDispatcher dispatcher4 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
-				.thenBeginSession().toDestination(queueName).andToProduce()
-				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
-		
-		MessageDispatcher dispatcher5 = new MessageDispatcherBuilder().forURI(uri).prepareConnection()
-				.thenBeginSession().toDestination(queueName).andToProduce()
-				.theMessages(messageFilePath).numberOfTimes(count).getDispatcher();
-		
-		
 		CountDownLatch startLatch=new CountDownLatch(1);
-		CountDownLatch endLatch = new CountDownLatch(5);
+		CountDownLatch endLatch = new CountDownLatch(1);
 		
-		dispatcher1.setStartLatch(startLatch);dispatcher2.setStartLatch(startLatch);
+		dispatcher1.setStartLatch(startLatch);/*dispatcher2.setStartLatch(startLatch);
 		dispatcher3.setStartLatch(startLatch);dispatcher4.setStartLatch(startLatch);
-		dispatcher5.setStartLatch(startLatch);
+		dispatcher5.setStartLatch(startLatch);*/
 		
-		dispatcher1.setEndLatch(endLatch);dispatcher2.setEndLatch(endLatch);
+		dispatcher1.setEndLatch(endLatch);/*dispatcher2.setEndLatch(endLatch);
 		dispatcher3.setEndLatch(endLatch);dispatcher4.setEndLatch(endLatch);
-		dispatcher5.setEndLatch(endLatch);
+		dispatcher5.setEndLatch(endLatch);*/
 		
 
 		Thread t1 = new Thread(dispatcher1);
-		Thread t2 = new Thread(dispatcher2);
+		/*Thread t2 = new Thread(dispatcher2);
 		Thread t3 = new Thread(dispatcher3);
 		Thread t4 = new Thread(dispatcher4);
-		Thread t5 = new Thread(dispatcher5);
-
-		long temp = System.currentTimeMillis();
-		t1.start();t2.start();t3.start();t4.start();t5.start();
-		startLatch.countDown();
-		endLatch.await();
+		Thread t5 = new Thread(dispatcher5);*/
 		
+		t1.start();//t2.start();t3.start();t4.start();t5.start();
+		startLatch.countDown();
+		
+		while(true)
+		{
+		temp=System.currentTimeMillis();
+		
+		dispatcher1.run();
+		long time=1000-(System.currentTimeMillis() - temp);
+		if(time>0)
+		Thread.sleep(time);
 		System.out.println(System.currentTimeMillis() - temp);
-
+		}
+//		endLatch.await();
 	}
 
 }
@@ -79,7 +95,7 @@ public class MAIN {
 class MessageDispatcher implements Runnable {
 
 	private MessageProducer producer;
-	private TextMessage message;
+	private Message message;
 	private Connection connection;
 	private int count;
 	private CountDownLatch startLatch;
@@ -101,7 +117,7 @@ class MessageDispatcher implements Runnable {
 		this.endLatch = endLatch;
 	}
 
-	private MessageDispatcher(MessageProducer producer, TextMessage message, Connection connection, int count) {
+	private MessageDispatcher(MessageProducer producer, Message message, Connection connection, int count) {
 		this.producer = producer;
 		this.message = message;
 		this.connection = connection;
@@ -118,18 +134,13 @@ class MessageDispatcher implements Runnable {
 				producer.send(message);
 			}
 
-			System.out.println(Thread.currentThread().getName() + " " + (System.currentTimeMillis() - time) + " messages send "+ (i-1));
+			System.out.println(Thread.currentThread().getName() + " " + (System.currentTimeMillis() - time) + " messages send "+ (i));
 
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		} finally
 		{
-			endLatch.countDown();
-			try {
-				this.connection.close();
-			} catch (JMSException e) {
-				throw new RuntimeException(e);
-			}
+//			endLatch.countDown();
 		}
 	}
 	
@@ -159,7 +170,7 @@ class MessageDispatcher implements Runnable {
 		this.count=count;
 	}
 
-	TextMessage getMessage() {
+	Message getMessage() {
 		return message;
 	}
 
@@ -177,13 +188,14 @@ class MessageDispatcher implements Runnable {
 		private Session session;
 		private Destination destination;
 		private MessageProducer producer;
-		private TextMessage message;
+		private Message message;
 		private int count;
 
 		public MessageDispatcherBuilder forURI(String uri) {
 			this.connectionFactory = new ActiveMQConnectionFactory(uri);
 			connectionFactory.setUseAsyncSend(true);
 			connectionFactory.setProducerWindowSize(Integer.MAX_VALUE);
+			connectionFactory.setUseCompression(true);
 			return this;
 		}
 
@@ -225,9 +237,11 @@ class MessageDispatcher implements Runnable {
 			return this;
 		}
 
-		public MessageDispatcherBuilder theMessages(String filePath) {
+		public MessageDispatcherBuilder theMessages(String filePath) throws UnsupportedEncodingException {
 			try {
-				this.message = session.createTextMessage(getMessage(filePath));
+				BytesMessage bMessage=session.createBytesMessage();
+				bMessage.writeBytes(getMessage(filePath).getBytes("UTF-8"));
+				this.message = bMessage;
 			} catch (JMSException e) {
 				throw new RuntimeException(e);
 			}
@@ -298,11 +312,11 @@ class MessageDispatcher implements Runnable {
 			this.producer=producer;
 		}
 
-		TextMessage getMessage() {
+		Message getMessage() {
 			return message;
 		}
 		
-		void setMessage(TextMessage message) {
+		void setMessage(Message message) {
 			this.message=message;
 		}
 
